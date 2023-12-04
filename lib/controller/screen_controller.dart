@@ -4,16 +4,13 @@ import 'package:student_app_getx/model/student_model.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
-// ignore: constant_identifier_names
-
-// ignore: constant_identifier_names
 const String DB_NAME = 'student_database';
 
 
 
 class ScreenController extends GetxController {
 
-  List<StudentModel> allStudentList = <StudentModel>[].obs;
+  RxList<StudentModel> allStudentList = <StudentModel>[].obs;
 
 
 
@@ -54,7 +51,7 @@ class ScreenController extends GetxController {
     allStudentList.clear();
     final allSrudenList = await getAllData();
     Future.forEach(allSrudenList, (element){
-      if(element.name.contains(name)){
+      if(element.name.toLowerCase().contains(name.toLowerCase())){
         allStudentList.add(element);
       }
     });

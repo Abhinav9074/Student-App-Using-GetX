@@ -8,7 +8,7 @@ class SearchWidget extends StatelessWidget {
 
   TextEditingController searchCont = TextEditingController();
 
-  final controller = Get.put(ScreenController());
+  final controller = Get.find<ScreenController>();
 
   @override
   Widget build(BuildContext context) {

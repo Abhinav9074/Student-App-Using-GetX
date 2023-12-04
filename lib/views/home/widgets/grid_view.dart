@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:student_app_getx/controller/screen_controller.dart';
-import 'package:student_app_getx/screen/edit_student/edit_screen.dart';
-import 'package:student_app_getx/screen/student_details/details_screen.dart';
+import 'package:student_app_getx/views/edit_student/edit_screen.dart';
+import 'package:student_app_getx/views/student_details/details_screen.dart';
 
 class StudentGrid extends StatelessWidget {
   StudentGrid({super.key});

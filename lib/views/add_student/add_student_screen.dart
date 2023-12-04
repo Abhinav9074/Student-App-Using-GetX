@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:student_app_getx/controller/screen_controller.dart';
 import 'package:student_app_getx/model/student_model.dart';
-import 'package:student_app_getx/theme/theme.dart';
+import 'package:student_app_getx/views/theme/theme.dart';
 
 class AddStudent extends StatelessWidget {
   AddStudent({super.key});

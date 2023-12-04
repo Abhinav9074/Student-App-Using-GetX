@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:student_app_getx/model/student_model.dart';
-import 'package:student_app_getx/screen/splashScreen/splash_screen.dart';
-import 'package:student_app_getx/theme/theme.dart';
+import 'package:student_app_getx/views/splashScreen/splash_screen.dart';
+import 'package:student_app_getx/views/theme/theme.dart';
 
 Future<void> main()async{
   WidgetsFlutterBinding.ensureInitialized();

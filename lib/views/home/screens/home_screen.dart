@@ -3,15 +3,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:student_app_getx/controller/screen_controller.dart';
-import 'package:student_app_getx/screen/add_student/add_student_screen.dart';
-import 'package:student_app_getx/screen/home/widgets/grid_view.dart';
-import 'package:student_app_getx/screen/home/widgets/search_widget.dart';
-import 'package:student_app_getx/theme/theme.dart';
+import 'package:student_app_getx/views/add_student/add_student_screen.dart';
+import 'package:student_app_getx/views/home/widgets/grid_view.dart';
+import 'package:student_app_getx/views/home/widgets/search_widget.dart';
+import 'package:student_app_getx/views/theme/theme.dart';
 
 class HomeScreen extends StatelessWidget {
-   HomeScreen({super.key});
+   const HomeScreen({super.key});
 
-  final controller = Get.put(ScreenController());
 
 
   @override

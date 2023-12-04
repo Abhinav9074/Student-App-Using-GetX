@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:student_app_getx/controller/screen_controller.dart';
-import 'package:student_app_getx/screen/home/screens/home_screen.dart';
+import 'package:student_app_getx/views/home/screens/home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
    SplashScreen({super.key});
